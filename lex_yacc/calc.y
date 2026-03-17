@@ -40,3 +40,12 @@ int main() {
     yyparse();
     return 0;
 }
+
+
+# sudo apt install flex bison gcc 
+# nano calc.l
+# nano calc.y
+# bison -d calc.y
+# flex calc.l
+# gcc calc.tab.c lex.yy.c -o calculator 
+# ./calculator
