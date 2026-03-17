@@ -121,3 +121,8 @@ int main(){
 
     return 0;
 }
+
+
+# nano token_110.c
+# gcc token_110.c -o tokenizer
+# ./tokenizer
